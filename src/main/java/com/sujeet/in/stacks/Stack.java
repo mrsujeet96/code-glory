@@ -3,18 +3,18 @@ package com.sujeet.in.stacks;
 public class Stack {
     public static void main(String[] args) {
 
-        Employee janeJones = new Employee("Jane", "Jones", 123);
-        Employee johnDoe = new Employee("John", "Doe", 4567);
-        Employee marySmith = new Employee("Mary", "Smith", 22);
-        Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
-        Employee billEnd = new Employee("Bill", "End", 78);
+        Employee sujeetKumar = new Employee("Sujeet", "Kumar", 124);
+        Employee shubhamKumar = new Employee("Shubham", "Kumar", 107);
+        Employee vickyChetri= new Employee("vicky", "Chetri", 136);
+        Employee indrajeetGupta = new Employee("Indrajeet", "Gupta", 050);
+        Employee vijayJoshi = new Employee("Vijay", "Joshi", 150);
 
         LinkedStack stack = new LinkedStack();
-        stack.push(janeJones);
-        stack.push(johnDoe);
-        stack.push(marySmith);
-        stack.push(mikeWilson);
-        stack.push(billEnd);
+        stack.push(sujeetKumar);
+        stack.push(shubhamKumar);
+        stack.push(vickyChetri);
+        stack.push(indrajeetGupta);
+        stack.push(vijayJoshi);
 
         //stack.printStack();
 
