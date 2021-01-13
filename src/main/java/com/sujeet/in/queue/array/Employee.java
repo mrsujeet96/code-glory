@@ -1,4 +1,4 @@
-package com.sujeet.in.queue;
+package com.sujeet.in.queue.array;
 
 import java.util.Objects;
 

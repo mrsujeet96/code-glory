@@ -1,4 +1,7 @@
-package com.sujeet.in.queue;
+package com.sujeet.in.queue.array;
+
+import com.sujeet.in.queue.array.ArrayQueue;
+import com.sujeet.in.queue.array.Employee;
 
 public class Queue {
     public static void main(String[] args) {
