@@ -1,4 +1,4 @@
-package com.sujeet.in.stacks;
+package com.sujeet.in.stacks.linkedlist;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

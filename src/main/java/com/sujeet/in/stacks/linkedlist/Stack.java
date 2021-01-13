@@ -1,4 +1,7 @@
-package com.sujeet.in.stacks;
+package com.sujeet.in.stacks.linkedlist;
+
+import com.sujeet.in.stacks.linkedlist.Employee;
+import com.sujeet.in.stacks.linkedlist.LinkedStack;
 
 public class Stack {
     public static void main(String[] args) {
