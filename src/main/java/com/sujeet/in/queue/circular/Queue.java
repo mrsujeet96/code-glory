@@ -14,35 +14,35 @@ public class Queue {
 
         ArrayQueue queue = new ArrayQueue(5);
 
-//        queue.add(sujeetKumar);
-//        queue.add(shubhamKumar);
-//        queue.remove();
-//        queue.add(vickyChetri);
-//        queue.remove();
-//        queue.add(indrajeetGupta);
-//        queue.remove();
-//        queue.add(vijayJoshi);
-//        queue.remove();
-//        queue.add(sujeetKumar);
-//
-//        queue.printQueue();
-
         queue.add(sujeetKumar);
         queue.add(shubhamKumar);
+        queue.remove();
         queue.add(vickyChetri);
+        queue.remove();
         queue.add(indrajeetGupta);
+        queue.remove();
         queue.add(vijayJoshi);
-
         queue.remove();
-        queue.remove();
-        queue.remove();
-        queue.remove();
-        queue.remove();
-//        queue.remove();
-        queue.add(vickyChetri);
+        queue.add(sujeetKumar);
 
         queue.printQueue();
 
-//        System.out.println(queue.peek());
+//        queue.add(sujeetKumar);
+//        queue.add(shubhamKumar);
+//        queue.add(vickyChetri);
+//        queue.add(indrajeetGupta);
+//        queue.add(vijayJoshi);
+//
+//        queue.remove();
+//        queue.remove();
+//        queue.remove();
+//        queue.remove();
+//        queue.remove();
+////        queue.remove();
+//        queue.add(vickyChetri);
+//
+//        queue.printQueue();
+//
+////        System.out.println(queue.peek());
     }
 }
