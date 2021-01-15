@@ -63,7 +63,7 @@ public class CircularQueue {
             throw new NoSuchElementException();
         }
         return queue[front];
-    }
+    } 
 
     public void printQueue() {
         if (front <= back) {
