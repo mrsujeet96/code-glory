@@ -13,7 +13,7 @@ public class ArrayHashtable {
     public void put(String key, Employee employee){
         int hashedKey=hasKey(key);
         if(hashtable[hashedKey]!=null){
-            System.out.println("sorry this position already taken "+ hashedKey);
+            System.out.println("sorry this is position already taken "+ hashedKey);
         }else {
             hashtable[hashedKey]=employee;
         }
