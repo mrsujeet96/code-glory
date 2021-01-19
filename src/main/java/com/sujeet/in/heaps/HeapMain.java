@@ -16,9 +16,12 @@ public class HeapMain {
         heap.printHeap();
 
 
-        System.out.println("Peek= "+heap.peek());
+        System.out.println("Peek= " + heap.peek());
         heap.delete(5);
         heap.printHeap();
-        System.out.println("Peek= "+heap.peek());
+        System.out.println("Peek= " + heap.peek());
+
+        heap.sort();
+        heap.printHeap();
     }
 }
