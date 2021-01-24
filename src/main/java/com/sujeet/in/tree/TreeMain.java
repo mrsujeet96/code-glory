@@ -1,6 +1,7 @@
 package com.sujeet.in.tree;
 
 public class TreeMain {
+
     public static void main(String[] args) {
         Tree intTree=new Tree();
         intTree.insert(25);
