@@ -9,7 +9,7 @@ public class ShellSort {
                 int newElement = intArray[i];
                 int j = i;
                 while (j >= gap && intArray[j - gap] > newElement) {
-                    intArray[j] = intArray[i - gap];
+                    intArray[j] = intArray[j - gap];
                     j -= gap;
                 }
                 intArray[j] = newElement;
