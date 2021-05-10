@@ -40,23 +40,27 @@ public class TwoSum {
         int[] nums = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3};
         int target = 9;
         int[] arr = twoSum(nums, target);
-        for (int i = 0; i < 2; i++) {
-            System.out.print("[" + arr[i] + " ]");
+        for (int i = 0; i <arr.length; i++) {
+            System.out.print(i + " ");
         }
+
     }
 
     public static int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
+        int[] arr = new int[2];
 
         for (int i = 0; i < nums.length; i++) {
-            int diff = target - nums[i];
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    arr[0] = i;
+                    arr[1] = j;
 
-            if (map.containsKey(diff)) {
-                return new int[]{map.get(diff), i};
+
+                }
             }
-            map.put(nums[i], i);
         }
-        return new int[0];
+        return arr;
+
     }
 
 }
