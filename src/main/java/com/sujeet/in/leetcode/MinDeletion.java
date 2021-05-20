@@ -38,7 +38,7 @@ public class MinDeletion {
 
     }
 
-    static int max_char = 0;
+    static int max_char = 26;
 
     public static int getMinDeletions(String str)
     {
