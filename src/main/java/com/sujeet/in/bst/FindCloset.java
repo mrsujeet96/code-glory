@@ -1,7 +1,7 @@
 package com.sujeet.in.bst;
 
 public class FindCloset {
-    public Node findClosestElement(Node node, int value) {
+    public Node findClosest(Node node, int value) {
         if (node == null) {
             return null;
         }

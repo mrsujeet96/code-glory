@@ -38,7 +38,7 @@ public class BSTMain {
 
 //Find Closet Element Main
 
-        FindCloset findCloset = new FindCloset();
+        FindCloset fc = new FindCloset();
         Node root2 = null;
 
         root2 = node.insert(root2, 9);
@@ -50,7 +50,7 @@ public class BSTMain {
         root2 = node.insert(root2, 5);
         root2 = node.insert(root2, 13);
 
-        Node closestNode = findCloset.findClosestElement(root2, 10);
+        Node closestNode = fc.findClosest(root2, 10);
 
         if (closestNode != null) {
             System.out.println("Find Closet" + closestNode.data);
