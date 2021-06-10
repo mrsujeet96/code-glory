@@ -32,8 +32,8 @@ public class BSTMain {
 
 
         root1 = post.createBST(postOrder, 0, postOrder.length - 1);
-        post.inorder(root1);
-        System.out.println();
+        post.display(root1);
+
 
 
 //Find Closet Element Main

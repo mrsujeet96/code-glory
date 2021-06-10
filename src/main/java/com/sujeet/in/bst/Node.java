@@ -2,12 +2,11 @@ package com.sujeet.in.bst;
 
 public class Node {
     int data;
-   Node left;
-   public Node right;
+    Node left;
+    public Node right;
 
 
-
-     static Node insert(Node node, int val) {
+    static Node insert(Node node, int val) {
         if (node == null) {
             return CreateNode(val);
         }
@@ -22,7 +21,7 @@ public class Node {
     }
 
 
-       public static Node CreateNode(int i) {
+    public static Node CreateNode(int i) {
         Node node1 = new Node();
         node1.data = i;
         node1.left = null;
